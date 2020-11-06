@@ -29,6 +29,9 @@ body {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto 100%;
 	color:#E0E0E0;
+	border-style: solid;
+	border-color: #000000;
+	border-width: 2px;
 }
 .title{
 	background-color: #0d0d0d;
@@ -36,7 +39,7 @@ body {
 	grid-column:3/span 1;
 	grid-row: 1/span 1;
 	border-style: solid;
-	border-color: #000000;
+	border-color: white;
 	border-width: 2px;
 	padding: 1px;
 }
