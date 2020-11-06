@@ -10,7 +10,8 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr auto-flow;
-	grid-gap: 15px 20px;
+	grid-gap: 25px 30px;
+  margin: 15px;
 }
 #box1{
 	background-color: #36486b;
@@ -31,15 +32,15 @@ body {
 	color:#E0E0E0;
 	border-style: solid;
 	border-color: #000000;
-	border-width: 3px;
+	border-width: 1px;
 }
 .title{
-	background-color: #0d0d0d;
+	background-color: #1A237E;
 	color: #b3b3b3;
 	grid-column:3/span 1;
 	grid-row: 1/span 1;
 	border-style: solid;
-	border-color: #8c383c;
+	border-color: #000000;
 	border-width: 1px;
 	padding: 1px;
 }
