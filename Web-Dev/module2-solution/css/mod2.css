@@ -10,7 +10,7 @@ body {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr auto-flow;
-	grid-gap: 10px 15px;
+	grid-gap: 15px 20px;
 }
 #box1{
 	background-color: #36486b;
