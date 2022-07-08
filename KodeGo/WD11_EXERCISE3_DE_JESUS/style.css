@@ -24,41 +24,81 @@ body {
 }
 
 #hello-banner {
-    font-family: 'The Nautigal', cursive;
-    font-size: 150px;
-    text-align: center;
-    padding: 50px 10px 50px 10px;
-    border-style: ridge;
-    transition: .45s;
+  font-family: 'The Nautigal', cursive;
+  font-size: 150px;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  border-style: ridge;
+  transition: .45s;
 }
 
 #hello-banner:hover {
-    font-size: 225px;    
-    padding: 0px 0px 0px 0px;
-    color: rgb(242, 255, 0);
-    text-shadow:0px 0px 55px 15px rgba(234,247,139,1);
-    cursor: pointer;
-    border-color: rgba(234,247,139,1);
+  font-size: 225px;    
+  padding: 0px 10px 0px 0px;
+  color: rgb(242, 255, 0);
+  text-shadow:0px 0px 55px 15px rgba(234,247,139,1);
+  cursor: pointer;
+  border-color: rgba(234,247,139,1);
 }
 
-@media only screen and (max-width: 700px){
-    #hello-banner {
-        font-family: 'The Nautigal', cursive;
-        font-size: 75px;
-        text-align: center;
-        padding: 50px 10px 50px 10px;
-        border-style: ridge;
-        transition: .45s;
-    }
-    
-    #hello-banner:hover {
-        font-size: 125px;    
-        padding: 0px 10px 0px 0px;
-        color: rgb(242, 255, 0);
-        text-shadow:0px 0px 55px 15px rgba(234,247,139,1);
-        cursor: pointer;
-        border-color: rgba(234,247,139,1);
-    }
+@media only screen and (max-width: 600px){
+  #hello-banner {
+      font-family: 'The Nautigal', cursive;
+      font-size: 75px;
+      text-align: center;
+      padding: 50px 5px 50px 5px;
+      border-style: ridge;
+      transition: .45s;
+  }
+  
+  #hello-banner:hover {
+      font-size: 100px;    
+      padding: 0px 10px 0px 0px;
+      color: rgb(242, 255, 0);
+      text-shadow:0px 0px 55px 15px rgba(234,247,139,1);
+      cursor: pointer;
+      border-color: rgba(234,247,139,1);
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #hello-banner {
+      font-family: 'The Nautigal', cursive;
+      font-size: 75px;
+      text-align: center;
+      padding: 50px 10px 50px 10px;
+      border-style: ridge;
+      transition: .45s;
+  }
+  
+  #hello-banner:hover {
+      font-size: 115px;    
+      padding: 0px 10px 0px 0px;
+      color: rgb(242, 255, 0);
+      text-shadow:0px 0px 55px 15px rgba(234,247,139,1);
+      cursor: pointer;
+      border-color: rgba(234,247,139,1);
+  }
+}
+
+@media only screen and (max-width: 290px){
+  #hello-banner {
+      font-family: 'The Nautigal', cursive;
+      font-size: 55px;
+      text-align: center;
+      padding: 50px 10px 50px 10px;
+      border-style: ridge;
+      transition: .45s;
+  }
+  
+  #hello-banner:hover {
+      font-size: 85px;    
+      padding: 0px 10px 0px 0px;
+      color: rgb(242, 255, 0);
+      text-shadow:0px 0px 55px 15px rgba(234,247,139,1);
+      cursor: pointer;
+      border-color: rgba(234,247,139,1);
+  }
 }
 
 article{
@@ -145,8 +185,8 @@ footer{
 }
 .fa {
   padding: 20px;
-  font-size: 55px;
-  width: 30px;
+  font-size: x-large;
+  width: 20px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -178,6 +218,82 @@ footer{
   color: white;
 }
 
+.fa-building-o{
+  background: #000000;
+  color: white;
+}
 .gMap{
   text-align: center;
+}
+
+.gMapSmall{
+  display: none;
+}
+.gMapMedium{
+  display: none;
+}
+/*.gMapLarge{
+}
+*/
+
+@media only screen and (max-width: 750px){
+  h1 {
+    font-size: 50px;
+   }
+   .subt{
+    font-size: 20px;
+  }
+  
+  dt {
+      font-size: 15px;
+  }
+  
+  dd {
+    font-size: 15px;
+  }
+  
+  p {
+    font-size: 15px;
+  }
+  
+  .gMapSmall{
+    display: none;
+  }
+  .gMapMedium{
+    display: inline-block;
+  }
+  .gMapLarge{
+    display: none;
+  }
+  
+}
+@media only screen and (max-width: 530px){
+  h1 {
+    font-size: 40px;
+   }
+   .subt{
+    font-size: 15px;
+  }
+  
+  dt {
+      font-size: 10px;
+  }
+  
+  dd {
+    font-size: 10px;
+  }
+  
+  p {
+    font-size: 10px;
+  }
+  .gMapSmall{
+    display: inline-block;
+  }
+  .gMapMedium{
+    display: none;
+  }
+  .gMapLarge{
+    display: none;
+  }
+  
 }
